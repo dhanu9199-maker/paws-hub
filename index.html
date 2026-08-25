@@ -4,16 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Paws & Pastimes - Gift Guides for Dog Moms, Cat Ladies & Craft Lovers</title>
-<meta name="description" content="Handpicked gift guides for dachshund moms, doxie dads, cat ladies, crochet lovers and plant parents. Funny shirts, sweatshirts and totes made on demand.">
+<meta name="description" content="Handpicked gift guides for dachshund moms, doxie dads, cat ladies, crochet lovers and plant parents. Funny shirts, sweatshirts and totes made on demand. Free swaps, true-to-size help, human replies.">
 <!-- GA4: paste gtag snippet here after Analytics account creation -->
 <style>
- body{font-family:Georgia,serif;max-width:860px;margin:0 auto;padding:24px;line-height:1.65;color:#222}
- h1,h2{font-family:'Arial Black',sans-serif;line-height:1.15}
- .grid{display:flex;flex-wrap:wrap;gap:16px;margin:28px 0}
- .card{flex:1 1 240px;border:1px solid #ddd;border-radius:10px;padding:16px;text-align:center}
- .card img{max-width:100%;border-radius:8px}
- .cta{display:inline-block;background:#c44e3c;color:#fff;padding:10px 22px;border-radius:6px;text-decoration:none;margin-top:8px}
- footer{margin-top:48px;font-size:.85em;color:#777;border-top:1px solid #eee;padding-top:16px}
+:root{--paper:#faf7f2;--ink:#222;--soft:#5d564c;--faint:#726a5d;--line:#e3dbd0;--accent:#c44e3c;--accent-deep:#9c3526}
+*{box-sizing:border-box}
+body{font-family:Georgia,serif;background:var(--paper);color:var(--ink);max-width:860px;margin:0 auto;padding:24px;line-height:1.65;font-size:17px}
+h1,h2{font-family:'Arial Black',sans-serif;line-height:1.15}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent-deep);outline-offset:2px;border-radius:4px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.grid{display:flex;flex-wrap:wrap;gap:16px;margin:28px 0}
+.card{flex:1 1 240px;border:1px solid var(--line);border-radius:10px;padding:16px;text-align:center;background:#fff}
+.card img{max-width:100%;border-radius:8px}
+.card h3{margin:10px 0 2px;font-size:1.05em}
+.price{font-weight:bold;color:var(--ink);font-size:1.05em;margin-bottom:8px}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:10px 22px;border-radius:999px;text-decoration:none;font-family:Arial,sans-serif;font-size:.92em;font-weight:bold}
+.cta:hover{background:var(--accent-deep)}
+.trust{font-size:.78em;color:var(--faint);margin-top:8px;line-height:1.45}
+.guide-teaser{border:1px solid var(--line);background:#fff;border-radius:10px;padding:12px 16px;margin-top:20px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.guide-teaser p{margin:0;font-size:.95em;color:var(--soft)}
+.guide-teaser a{color:var(--accent-deep);font-weight:bold;text-decoration:none;white-space:nowrap}
+.reviews{margin:40px 0 8px;border:1px dashed #c9beae;border-radius:12px;padding:22px;text-align:center;background:#fff}
+.reviews h2{margin-bottom:6px}
+.reviews p{margin:0 auto;max-width:520px;color:var(--soft);font-size:.95em}
+footer{margin-top:48px;font-size:.85em;color:var(--faint);border-top:1px solid var(--line);padding-top:16px}
+.footnav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px}
+.footnav a{color:var(--soft);text-decoration:none}
+.footnav a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -21,13 +38,18 @@
 <p>We design funny, heartfelt gift wear for the obsessed: dachshund parents, cat ladies, crochet addicts, plant people and book lovers. Every item is printed fresh when you order.</p>
 
 <div class="grid">
- <div class="card"><img src="assets/doxie-mom-tee.jpg" alt="The One and Only Doxie Mom limited edition t-shirt"><h3>Doxie Mom Tee</h3><a class="cta" href="#" data-store-link="/product/doxie-mom-tee">Shop the tee</a></div>
- <div class="card"><img src="assets/cat-mom-shirt.jpg" alt="Cat Mom fueled by coffee and chaos shirt with whiskers"><h3>Cat Mom Shirt</h3><a class="cta" href="#" data-store-link="/product/cat-mom-shirt">Shop the shirt</a></div>
- <div class="card"><img src="assets/crochet-tee.jpg" alt="Hooked on Crochet tee with hook line art"><h3>Hooked on Crochet</h3><a class="cta" href="#" data-store-link="/product/hooked-on-crochet-tee">Shop the tee</a></div>
- <div class="card"><img src="assets/plant-tote.jpg" alt="Plant Lady powered by photosynthesis tote"><h3>Plant Lady Tote</h3><a class="cta" href="#" data-store-link="/product/plant-lady-tote">Shop the tote</a></div>
+ <div class="card"><img src="assets/doxie-mom-tee.jpg" alt="The One and Only Doxie Mom limited edition t-shirt"><h3>Doxie Mom Tee</h3><p class="price">$28.99</p><a class="cta" href="#" data-store-link="/product/doxie-mom-tee">Shop the tee</a><p class="trust">Printed fresh · ships in 3–5 days · true to size · free swap</p></div>
+ <div class="card"><img src="assets/cat-mom-shirt.jpg" alt="Cat Mom fueled by coffee and chaos shirt with whiskers"><h3>Cat Mom Shirt</h3><p class="price">$26.99</p><a class="cta" href="#" data-store-link="/product/cat-mom-shirt">Shop the shirt</a><p class="trust">Printed fresh · ships in 3–5 days · true to size · free swap</p></div>
+ <div class="card"><img src="assets/crochet-tee.jpg" alt="Hooked on Crochet tee with hook line art"><h3>Hooked on Crochet</h3><p class="price">$27.99</p><a class="cta" href="#" data-store-link="/product/hooked-on-crochet-tee">Shop the tee</a><p class="trust">Printed fresh · ships in 3–5 days · true to size · free swap</p></div>
+ <div class="card"><img src="assets/plant-tote.jpg" alt="Plant Lady powered by photosynthesis tote"><h3>Plant Lady Tote</h3><p class="price">$21.99</p><a class="cta" href="#" data-store-link="/product/plant-lady-tote">Shop the tote</a><p class="trust">Holds a laptop · canvas · printed fresh</p></div>
 </div>
 
-<article>
+<div class="guide-teaser">
+  <p><strong>New here?</strong> Start with the Dachshund Mom Gift Guide — 17 gifts ranked by situation, not product type.</p>
+  <a href="#guide">Read the guide ↓</a>
+</div>
+
+<article id="guide">
 <h2>The Complete Dachshund Mom Gift Guide (2026)</h2>
 <p>Finding the right gift for a dachshund mom is easy once you understand one thing: she does not want dog stuff. She wants <em>her dog's</em> stuff. Generic paw prints will not survive contact with a woman who has a wiener-dog calendar, wiener-dog mug, and strong opinions about which one is accurate.</p>
 <h3>What dachshund moms actually buy</h3>
@@ -36,9 +58,22 @@
 <li><strong>Sweatshirts for dad too</strong> - the <a href="#" data-store-link="/product/certified-doxie-dad-crewneck">Certified Doxie Dad crewneck</a> solves the harder person on the list.</li>
 <li><strong>Anything that jokes about the breed's actual behavior</strong> - burrowing under blankets, selective hearing, one-person loyalty.</li>
 </ul>
-<h3>Sizing and quality notes</h3>
+<h3 id="sizing">Sizing and quality notes</h3>
 <p>Our shirts run true to size on unisex cuts; gift buyers should size up for the oversized look most dachshund moms prefer. All items are fulfilled by Printful's print-on-demand network, typically producing and shipping within 2-5 business days.</p>
 </article>
 
-<footer>Links above activate when the store launches. This site is the content hub of a $0-budget organic store experiment. No cookies, no tracking beyond anonymous analytics.</footer>
+<section class="reviews">
+  <h2>No reviews yet — by choice.</h2>
+  <p>This shop just opened. Real reviews land here unedited, good or bad. Until then we'd rather show you our free-swap guarantee than borrowed stars.</p>
+</section>
+
+<footer>
+<nav class="footnav" aria-label="Store information">
+<a href="#about">About</a>
+<a href="#sizing">Size Guide</a>
+<a href="#sizing">Shipping &amp; Returns</a>
+<a href="mailto:hello@pawsandpastimes.example">Contact</a>
+</nav>
+<span id="about">Paws &amp; Pastimes is the content hub of a $0-budget organic store experiment run by two people and one dachshund. Prices shown are illustrative during test mode; links activate when the store launches. No cookies, no tracking beyond anonymous analytics.</span>
+</footer>
 </body></html>
