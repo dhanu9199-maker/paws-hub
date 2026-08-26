@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://dhanu9199-maker.github.io/paws-hub/sitemap.xml
